@@ -393,63 +393,81 @@
     </div>
   </section>
 
-  <section id="projet-ecommerce">
-  <div>
+  <!-- Section Projet E-commerce Professionnelle -->
+<section id="projet-ecommerce" style="font-family: Arial, sans-serif; padding: 80px 20px; background: #f9f9f9;">
+  <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+
     <!-- Texte principal -->
-    <div>
-      <div class="section-label">Mon Projet</div>
-      <h2>
+    <div style="margin-bottom: 60px; animation: fadeIn 1s ease forwards;">
+      <div style="text-transform: uppercase; color: #ffb400; letter-spacing: 2px; margin-bottom: 10px;">Mon Projet</div>
+      <h2 style="font-size: 2.5em; color: #333; line-height: 1.2;">
         Ecom Luxe de WebDesignTana<br />
-        <em>Projet e-commerce fictif</em>
+        <em style="font-style: italic; color: #ffb400;">Projet e-commerce fictif</em>
       </h2>
-      <p>
+      <p style="font-size: 1.1em; color: #555; max-width: 800px; margin: 20px auto;">
         Ce projet démontre mes compétences en création de boutiques en ligne. J'ai conçu un site avec panier,
         catalogue produit et interface interactive.
       </p>
-      <p>
+      <p style="font-size: 1.1em; color: #555; max-width: 800px; margin: 0 auto 20px;">
         L'objectif était de créer une expérience utilisateur fluide et esthétique, inspirée des meilleures pratiques
         e-commerce.
       </p>
       <p>
-        Le projet est hébergé sur Vercel et peut être testé via le lien ci-dessous.
-      </p>
-      <p>
-        <a href="https://ecomluxedewebdesigntana.vercel.app/cart" target="_blank">Voir le projet</a>
+        <a href="https://ecomluxedewebdesigntana.vercel.app/cart" target="_blank" style="text-decoration: none; background: #ffb400; color: #fff; padding: 12px 25px; border-radius: 30px; font-weight: bold; transition: transform 0.3s;">Voir le projet</a>
       </p>
     </div>
 
     <!-- Piliers / points forts -->
-    <div>
-      <div>
-        <div>I</div>
-        <div>
-          <strong>Design responsive</strong>
-          <span>Optimisé pour tous les écrans, mobile et desktop.</span>
-        </div>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; animation: fadeInUp 1.2s ease forwards;">
+
+      <!-- Pilier 1 -->
+      <div style="background: #fff; border-radius: 15px; padding: 30px; width: 250px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s;">
+        <div style="font-size: 2em; color: #ffb400; font-weight: bold; margin-bottom: 10px;">I</div>
+        <strong style="display: block; font-size: 1.2em; margin-bottom: 8px;">Design responsive</strong>
+        <span style="color: #555;">Optimisé pour tous les écrans, mobile et desktop.</span>
       </div>
-      <div>
-        <div>II</div>
-        <div>
-          <strong>Catalogue produit</strong>
-          <span>Présentation claire avec filtres et catégories.</span>
-        </div>
+
+      <!-- Pilier 2 -->
+      <div style="background: #fff; border-radius: 15px; padding: 30px; width: 250px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s;">
+        <div style="font-size: 2em; color: #ffb400; font-weight: bold; margin-bottom: 10px;">II</div>
+        <strong style="display: block; font-size: 1.2em; margin-bottom: 8px;">Catalogue produit</strong>
+        <span style="color: #555;">Présentation claire avec filtres et catégories.</span>
       </div>
-      <div>
-        <div>III</div>
-        <div>
-          <strong>Panier fonctionnel</strong>
-          <span>Simulation complète du processus d'achat.</span>
-        </div>
+
+      <!-- Pilier 3 -->
+      <div style="background: #fff; border-radius: 15px; padding: 30px; width: 250px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s;">
+        <div style="font-size: 2em; color: #ffb400; font-weight: bold; margin-bottom: 10px;">III</div>
+        <strong style="display: block; font-size: 1.2em; margin-bottom: 8px;">Panier fonctionnel</strong>
+        <span style="color: #555;">Simulation complète du processus d'achat.</span>
       </div>
-      <div>
-        <div>IV</div>
-        <div>
-          <strong>Expérience utilisateur</strong>
-          <span>Interface intuitive inspirée des meilleures boutiques en ligne.</span>
-        </div>
+
+      <!-- Pilier 4 -->
+      <div style="background: #fff; border-radius: 15px; padding: 30px; width: 250px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s;">
+        <div style="font-size: 2em; color: #ffb400; font-weight: bold; margin-bottom: 10px;">IV</div>
+        <strong style="display: block; font-size: 1.2em; margin-bottom: 8px;">Expérience utilisateur</strong>
+        <span style="color: #555;">Interface intuitive inspirée des meilleures boutiques en ligne.</span>
       </div>
+
     </div>
   </div>
+
+  <!-- Animations CSS intégrées -->
+  <style>
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(40px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Hover effect sur les cartes */
+    #projet-ecommerce div[style*="background: #fff;"]:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+  </style>
 </section>
   <!-- APPLY FORM -->
   <section class="section apply" id="apply">
